@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="adminControllPanelPage">
+  <grid id="27dc6" binding="adminControllPanelPagePanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="60" left="60" bottom="60" right="60"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="10108">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5f672" class="javax.swing.JButton" binding="lessonPageBtn">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11110788"/>
+          <font size="22"/>
+          <text value="Lesson Managment"/>
+        </properties>
+      </component>
+      <component id="7806a" class="javax.swing.JButton" binding="quizPageBtn">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11110788"/>
+          <font size="22"/>
+          <text value="Quiz Managment"/>
+        </properties>
+      </component>
+      <component id="9f641" class="javax.swing.JButton" binding="studentPageBtn">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11110788"/>
+          <font size="22"/>
+          <text value="Student Managment"/>
+        </properties>
+      </component>
+      <component id="fd862" class="javax.swing.JButton" binding="teacherPageBtn">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11110788"/>
+          <font size="22"/>
+          <text value="Taecher Managment"/>
+        </properties>
+      </component>
+      <component id="26f5a" class="javax.swing.JLabel" binding="topTextLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26" style="1"/>
+          <text value="Admin's Control Panel"/>
+        </properties>
+      </component>
+      <component id="dfac4" class="javax.swing.JButton" binding="quitBtn">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11110788"/>
+          <font size="22"/>
+          <text value="Quit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

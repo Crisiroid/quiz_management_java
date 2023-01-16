@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="registerChecker">
+  <grid id="27dc6" binding="registerCheckerMainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-132097"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cc273" class="javax.swing.JButton" binding="registerBtn">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9874322"/>
+          <font size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="aa371" class="javax.swing.JButton" binding="loginBtn">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9874322"/>
+          <borderPainted value="true"/>
+          <focusable value="true"/>
+          <font size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Login"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
